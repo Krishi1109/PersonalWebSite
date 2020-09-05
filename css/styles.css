@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana,sans-serif;
+}
+
+
+h1 {
+  margin-top: 0;
+}
+
+
+
+.top-container {
+  background-color: #f0ece3;
+  position: relative;
+  padding: 4rem;
+  background-size: cover;
+  background-position: center;
+  min-height: 30rem;
+}
+.main {
+  width: 40rem;
+  margin: 20rem auto 0;
+}
+.middle-container {
+  padding: 4rem;
+  background-color: #f2f2f2;
+}
+.hr-section {
+  margin: 0;
+}
+.Abiliti{
+  margin: 0;
+  margin-top: 0;
+  padding: 4rem;
+}
+.h2-ability {
+  margin: 0 .5rem 1rem;
+}
+.h3-ability {
+  text-align: center;
+}
+.all-tables{
+  /* background-color: #dfd3c3; */
+
+  /* margin-left: 500px; */
+  text-align: left;
+
+}
+.table-skill {
+  width: 35rem;
+  margin: auto;
+}
+.skills-table{
+    text-align: center;
+}
+.th1{
+text-align: left;
+padding: .5rem;
+}
+
+.th2{
+text-align: right;
+padding: .5rem;
+}
+
+
+
+.bottom-container {
+  padding: 4rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
+
+.bottom-cloud {
+  position: absolute;
+}

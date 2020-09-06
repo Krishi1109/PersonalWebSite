@@ -3,14 +3,18 @@ body {
   text-align: center;
   font-family: verdana,sans-serif;
 }
-
-
-h1 {
-  margin-top: 0;
+hr{
+  width:100%;
 }
 
 
+.h1-main {
+  margin-top: 0;
+  font-size: 5rem;
+}
 
+
+/*-----------------------------Top Cointener---------------------------*/
 .top-container {
   background-color: #f0ece3;
   position: relative;
@@ -19,19 +23,40 @@ h1 {
   background-position: center;
   min-height: 30rem;
 }
+
 .main {
   width: 40rem;
   margin: 20rem auto 0;
 }
-.middle-container {
+
+
+
+/* =====================profile=========================================== */
+.main-profile{
+  padding: 0rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #dee0e7;
+
+}
+.profile{
+  background-color: #dee0e7;
+}
+
+
+
+/* ================================Middle-container====================== */
+.middle-container{
   padding: 4rem;
-  background-color: #f2f2f2;
+  padding-bottom: 0rem;
+  background-color: #cfd2dc;
 }
 .hr-section {
   margin: 0;
 }
 .Abiliti{
   margin: 0;
+
   margin-top: 0;
   padding: 4rem;
 }
@@ -39,18 +64,22 @@ h1 {
   margin: 0 .5rem 1rem;
 }
 .h3-ability {
-  text-align: center;
+  padding-left:17rem;
+
 }
 .all-tables{
-  /* background-color: #dfd3c3; */
 
-  /* margin-left: 500px; */
   text-align: left;
-
+}
+.tr-hover:hover {
+  opacity: 0.8;
+  transform: scale(1.01);
 }
 .table-skill {
   width: 35rem;
   margin: auto;
+
+  table-layout: auto;
 }
 .skills-table{
     text-align: center;
@@ -67,16 +96,29 @@ padding: .5rem;
 
 
 
+/* ============================Bottom container=============================== */
 .bottom-container {
-  padding: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  background-color:#b2b6c6;
 }
+.contact-me{
+  padding-bottom: 5rem;
+    background-color: #b2b6c6;
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px
 }
+.email{
+  padding: 2rem;
+}
+.footer{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #959ab0;
 
-.bottom-cloud {
-  position: absolute;
+}
+.footer-link{
+
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

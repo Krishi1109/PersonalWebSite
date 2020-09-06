@@ -60,6 +60,9 @@ hr{
   padding: 4rem;
 
 }
+.skill{
+  text-align: left;
+}
 .h2-ability {
 text-align: center;
 }
@@ -77,6 +80,7 @@ text-align: center;
   transform: scale(1.01);
 }
 .table-skill {
+  text-align: left;
   width: 35rem;
   margin: auto;
 

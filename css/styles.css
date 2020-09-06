@@ -33,7 +33,7 @@ hr{
 
 /* =====================profile=========================================== */
 .main-profile{
-  padding: 0rem;
+
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #dee0e7;
@@ -55,20 +55,23 @@ hr{
   margin: 0;
 }
 .Abiliti{
-  margin: 0;
-
+  margin: auto;
   margin-top: 0;
   padding: 4rem;
+
 }
 .h2-ability {
-  margin: 0 .5rem 1rem;
+text-align: center;
 }
 .h3-ability {
-  padding-left:17rem;
+
 
 }
 .all-tables{
-
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left:  16rem;
+  padding-right: 16rem;
   text-align: left;
 }
 .tr-hover:hover {
@@ -86,7 +89,7 @@ hr{
 }
 .th1{
 text-align: left;
-padding: .5rem;
+
 }
 
 .th2{
